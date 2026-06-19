@@ -13,7 +13,7 @@ Good codebase
 
 Most AI coding adoption focuses on the coding agent itself. Agent Rails focuses on the engineering system around the agent: the structure of the codebase, the way humans guide AI work, and the controls that prevent risky changes from bypassing review.
 
-## The Three Pillars
+## The Three Pillars and source code
 
 | Pillar | Purpose | Supporting repository |
 |---|---|---|
@@ -22,6 +22,11 @@ Most AI coding adoption focuses on the coding agent itself. Agent Rails focuses 
 | Operational Guardrails | Move mature AI-assisted work into a controlled issue-to-PR workflow with validation and human handoff. | [`agentic-loop-PR`](https://github.com/portero-aylagas/agentic-loop-PR) |
 
 Each supporting repository contains its own implementation details and usage notes. This repository explains the umbrella system and the system-level business, compliance, risk, and deployment logic.
+
+## Evidences of use
+Project refactor: https://github.com/portero-aylagas/job_search_automation/tree/main/docs/refactor-reports
+Agentic loop: https://github.com/portero-aylagas/agentic-loop-PR/issues/29 -> https://github.com/portero-aylagas/agentic-loop-PR/issues/29
+
 
 ## What Agent Rails Controls
 
